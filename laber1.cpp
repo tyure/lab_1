@@ -366,7 +366,7 @@ int main() {
 
     listOps.sortByTime();
 
-    cout << "\nВідсортовано за часом:" << endl;
+    cout << "Відсортовано за часом:" << endl;
     for (const auto& dt : listOps.dateTimeList) {
         cout << dt.date.day << "-" << dt.date.month << "-" << dt.date.year << " ";
         cout << dt.time.hours.value << ":" << dt.time.minutes.value << ":" << dt.time.seconds.value << endl;
